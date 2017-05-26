@@ -16,8 +16,8 @@ from recurrentshop import RecurrentModel
 from recurrentshop.advanced_cells import RHNCell
 from keras.models import Model
 from keras.layers import Dense, Dropout, Input, Lambda
-from keras.layers import add, multiply
-from keras.layers import Activation, Embedding
+from keras.layers import multiply
+from keras.layers import Embedding
 from keras.constraints import max_norm
 from keras.initializers import Constant, RandomUniform
 from keras.regularizers import l2
